@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f3a" />
+      <stop offset="100%" stop-color="#17446f" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="0" y="420" width="1200" height="210" fill="#10253f" />
+  <rect x="80" y="320" width="120" height="190" fill="#5a6d83" />
+  <rect x="230" y="280" width="120" height="230" fill="#6b7f96" />
+  <rect x="380" y="340" width="120" height="170" fill="#4f6177" />
+  <path d="M520 370 L760 370 L870 470 L590 470 Z" fill="#203a57" />
+  <rect x="700" y="330" width="80" height="40" fill="#b8c7d9" />
+  <text x="70" y="90" fill="#e8f0ff" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Rotterdam Port Strike</text>
+  <text x="70" y="135" fill="#bcd0ea" font-family="Segoe UI, Arial, sans-serif" font-size="24">Cargo operations disrupted</text>
+</svg>

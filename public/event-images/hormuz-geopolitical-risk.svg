@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b1a16" />
+      <stop offset="100%" stop-color="#7f2f1f" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <path d="M0 430 C180 390, 380 470, 600 430 C820 390, 1020 470, 1200 430 L1200 630 L0 630 Z" fill="#203a57" />
+  <path d="M410 350 L820 350 L900 450 L490 450 Z" fill="#2b4e72" />
+  <rect x="620" y="300" width="90" height="50" fill="#d7e4ef" />
+  <path d="M950 200 C1020 260, 1020 360, 950 420" stroke="#fda97a" stroke-width="10" fill="none" />
+  <path d="M1000 220 C1050 270, 1050 350, 1000 400" stroke="#ffd5c0" stroke-width="6" fill="none" />
+  <text x="70" y="90" fill="#fff0e8" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Strait of Hormuz Risk</text>
+  <text x="70" y="135" fill="#ffd6c2" font-family="Segoe UI, Arial, sans-serif" font-size="24">Geopolitical tension impacts shipping</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11233f" />
+      <stop offset="100%" stop-color="#295a88" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <ellipse cx="870" cy="170" rx="220" ry="120" fill="#d9e6f7" fill-opacity="0.2" />
+  <path d="M40 380 C220 330, 420 430, 620 380 C820 330, 1000 430, 1180 380 L1180 630 L40 630 Z" fill="#123a67" />
+  <rect x="160" y="300" width="90" height="190" fill="#70849d" />
+  <rect x="280" y="250" width="90" height="240" fill="#8096b0" />
+  <rect x="400" y="320" width="90" height="170" fill="#617690" />
+  <path d="M560 390 L830 390 L920 470 L620 470 Z" fill="#22496f" />
+  <text x="70" y="90" fill="#e7f1ff" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Singapore Port Typhoon</text>
+  <text x="70" y="135" fill="#c2d7ef" font-family="Segoe UI, Arial, sans-serif" font-size="24">Congestion after severe weather</text>
+</svg>

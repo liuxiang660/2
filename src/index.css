@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background:
+    radial-gradient(circle at 85% 20%, rgba(75, 142, 255, 0.15), transparent 38%),
+    radial-gradient(circle at 10% 80%, rgba(255, 188, 124, 0.12), transparent 35%),
+    #060e20;
+  color: #dae2fd;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(173, 198, 255, 0.35) rgba(19, 27, 46, 0.7);
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(173, 198, 255, 0.35);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(19, 27, 46, 0.7);
+}
+
+main {
+  animation: fadeIn 280ms ease;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-dash {
+  animation: dash 20s linear infinite;
+}
+

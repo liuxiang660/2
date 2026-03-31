@@ -1,0 +1,7 @@
+{
+  "name": "Sentry Intelligence",
+  "description": "Global supply chain intelligence and risk monitoring platform.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
