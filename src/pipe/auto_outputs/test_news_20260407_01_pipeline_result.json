@@ -1,0 +1,175 @@
+[
+  {
+    "news_metadata": {
+      "title": "测试：华东港口拥堵导致啤酒原料与成品配送延迟",
+      "content": "受短时强降雨和码头作业效率下降影响，华东某港口出现阶段性拥堵，多个集装箱班次延后24至36小时。进口啤酒花、麦芽以及铝制易拉罐包装的到港节奏受到影响，部分精酿啤酒厂反馈灌装计划可能顺延。多家物流企业已启动分流方案，改走周边港口与公路联运，以降低啤酒供应链中断风险。",
+      "date": "2026-04-07",
+      "url": "https://example.com/test/beer-supply-delay-20260407",
+      "source": "测试数据源"
+    },
+    "extracted_products": [
+      "啤酒花",
+      "麦芽",
+      "铝制易拉罐"
+    ],
+    "product_matches": [
+      {
+        "product_name": "啤酒花",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": "9. 咖啡、茶、马黛茶及调味香料",
+            "confidence": 0.95,
+            "reason": "啤酒花（hops）是啤酒酿造中常用的调味香料，具有苦味和香气，国际HS编码中归入调味香料类别（HS 0912）"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.95，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Food/Beverage",
+            "confidence": 0.95,
+            "reason": "啤酒花 (hops) is a key ingredient in beer production, falling under food and beverage raw materials"
+          },
+          "family": {
+            "matched_name": "Fresh Garnish (Food)",
+            "confidence": 0.85,
+            "reason": "Hops (啤酒花) are primarily used as a flavoring and stability agent in brewing, but fresh hops are classified as a culinary garnish or herb in food categorization systems."
+          },
+          "class": {
+            "matched_name": "Fresh Garnish (Food)",
+            "confidence": 0.8,
+            "reason": "啤酒花 (hops) is used as a flavoring and garnish in food and beverage production, particularly in brewing, and fits under fresh garnish category for culinary use."
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Beer hops (Humulus lupulus) is a brewing ingredient, not a food garnish leaf or flower; none of the candidates match."
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Brick匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Fresh Garnish (Food)",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "麦芽",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": "制粉工业产品;麦芽;淀粉;菊粉;面筋",
+            "confidence": 1.0,
+            "reason": "Product name '麦芽' directly matches the term '麦芽' in candidate 11."
+          },
+          "level2": {
+            "matched_name": "麦芽，不论是否焙制",
+            "confidence": 1.0,
+            "reason": "Product name '麦芽' directly matches candidate 7."
+          },
+          "level3": {
+            "matched_name": "未焙制的麦芽",
+            "confidence": 0.95,
+            "reason": "麦芽通常指未经焙制的发芽大麦，用于酿造和食品加工；若未特别说明‘焙制’，默认为未焙制状态"
+          },
+          "match_status": "success",
+          "fail_reason": "HS三层级匹配完成"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Food/Beverage",
+            "confidence": 0.95,
+            "reason": "麦芽 (malt) is a food ingredient commonly used in brewing, baking, and food production."
+          },
+          "family": {
+            "matched_name": "Cereal/Grain/Pulse Products",
+            "confidence": 0.95,
+            "reason": "Malt (麦芽) is produced by germinating cereal grains, typically barley, and falls under cereal/grain-based food products."
+          },
+          "class": {
+            "matched_name": "Grains/Flour",
+            "confidence": 0.85,
+            "reason": "Malt (麦芽) is a germinated cereal grain, commonly barley, used in brewing and food production; it falls under the broader category of grains, aligning with 'Grains/Flour' rather than processed or packaged varieties."
+          },
+          "brick": {
+            "matched_name": "Grains/Cereal - Not Ready to Eat - (Shelf Stable)",
+            "confidence": 0.95,
+            "reason": "Malt (麦芽) is a germinated cereal grain, typically barley, used as an ingredient in brewing and food production; it is not ready to eat, shelf-stable, and falls under grains/cereal not ready to eat category."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": "未焙制的麦芽",
+          "gpc_name": "Grains/Cereal - Not Ready to Eat - (Shelf Stable)",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "铝制易拉罐",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "铝制易拉罐是金属制包装容器，属于工业制成品，不在所列HS Level 1农产品及食品大类中"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Food/Beverage",
+            "confidence": 0.95,
+            "reason": "Aluminum beverage cans are standard packaging for drinks, directly associated with the Food/Beverage segment."
+          },
+          "family": {
+            "matched_name": "Beverages",
+            "confidence": 0.95,
+            "reason": "Aluminum pull-tab cans are primarily used for packaging beverages such as soft drinks, beer, and energy drinks."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Aluminum beverage can is a packaging container, not a beverage product; none of the candidates represent packaging."
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Class匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      }
+    ],
+    "extraction_status": "success"
+  }
+]

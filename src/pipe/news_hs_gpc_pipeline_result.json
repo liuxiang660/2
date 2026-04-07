@@ -1,0 +1,1821 @@
+[
+  {
+    "news_metadata": {
+      "title": "Ford Inaugurates $2.5B EV Manufacturing Complex in Mexico, Secures Multi-Year Supply Deals",
+      "content": "RAMOS ARISPE, Mexico (AP) — Ford Motor Co. formally inaugurated its $2.5 billion electric vehicle manufacturing complex in northern Mexico on Wednesday, marking the automaker’s largest nearshoring investment in North America to date.\nThe 900-acre facility will produce next-generation electric pickup trucks and SUVs for the U.S. and Mexican markets, with an annual production capacity of 250,000 EVs. The plant features fully automated stamping and welding lines, fitted with 320 industrial robotic arms, and a dedicated battery assembly workshop.\nFord also announced 10-year supply agreements with global component manufacturers to stabilize its EV supply chain, including: $1.8 billion in orders for 1200V silicon carbide power modules from onsemi; $1.2 billion in lithium iron phosphate battery cells from CATL’s new Mexico plant; and $750 million in automotive-grade MCU chips from NXP Semiconductors.\nAdditional local supply contracts were awarded to Mexican manufacturers, including high-voltage automotive wiring harnesses from Lear Corp, and die-cast aluminum body structural components from Nemak. The company said the localized supply chain will cut cross-border logistics costs by 18% and reduce production lead times by 12 days.\nMexico’s economy ministry said the Ford complex will create 4,600 direct jobs and drive an additional 12,000 indirect jobs in the regional auto parts supply chain.",
+      "date": "2026-01-22",
+      "url": "https://apnews.com/article/ford-ev-mexico-supply-chain-7f2d9a8b6c5e4d3f2a1b0c9d8e7f6a5b",
+      "source": "AP News"
+    },
+    "extracted_products": [
+      "electric pickup trucks",
+      "electric SUVs",
+      "silicon carbide power modules",
+      "lithium iron phosphate battery cells",
+      "automotive-grade MCU chips",
+      "high-voltage automotive wiring harnesses",
+      "die-cast aluminum body structural components"
+    ],
+    "product_matches": [
+      {
+        "product_name": "electric pickup trucks",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Electric pickup trucks are motor vehicles, not covered by any of the listed HS Level 1 categories, which are all agricultural, food, or raw material related."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.7,
+            "reason": "Electric pickup trucks are powered by electrical systems and batteries, aligning with electrical power and supply infrastructure; though vehicles, they fall under electrical equipment rather than automotive segments not listed."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Electric pickup trucks are motor vehicles, not electrical components or hardware; none of the candidates match."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "electric SUVs",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Electric SUVs are motor vehicles, not covered by any of the listed HS Level 1 categories, which are all agricultural, food, or raw natural product classifications."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.7,
+            "reason": "Electric SUVs are powered by electricity and involve electrical systems, batteries, and charging infrastructure, aligning most closely with Electrical Supplies among the given candidates."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Electric SUVs are vehicles, not electrical components or hardware; none of the candidates relate to automotive products."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "silicon carbide power modules",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Silicon carbide power modules are semiconductor electronic components, falling outside all provided HS Level 1 categories which cover agricultural, food, raw material, and natural product classifications."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "Silicon carbide power modules are semiconductor devices used in power electronics, falling under electrical components and supplies."
+          },
+          "family": {
+            "matched_name": "Electrical Connection/Distribution",
+            "confidence": 0.85,
+            "reason": "Silicon carbide power modules are semiconductor-based power electronic devices used for switching and power conversion, typically integrated into power distribution systems and electrical connection infrastructure."
+          },
+          "class": {
+            "matched_name": "Electrical Distribution",
+            "confidence": 0.85,
+            "reason": "Silicon carbide power modules are used for efficient power conversion and control in electrical distribution systems, such as inverters and converters in industrial and energy applications."
+          },
+          "brick": {
+            "matched_name": "Converters/Transformers",
+            "confidence": 0.85,
+            "reason": "Silicon carbide power modules are used in high-efficiency power conversion systems, such as inverters and DC-DC converters, falling under power electronics within the Converters/Transformers brick."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Converters/Transformers",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "lithium iron phosphate battery cells",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Lithium iron phosphate battery cells are electrochemical energy storage devices, falling under industrial/manufactured goods, not covered by any of the provided agricultural, food, or natural product HS Level 1 categories."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "Lithium iron phosphate battery cells are rechargeable energy storage components used in electrical systems, power tools, EVs, and backup power, falling under electrical supplies."
+          },
+          "family": {
+            "matched_name": "Electrical Connection/Distribution",
+            "confidence": 0.7,
+            "reason": "Lithium iron phosphate battery cells are energy storage components often integrated into power distribution systems, and 'Electrical Connection/Distribution' is the closest category among the given options for power-related electrical components; they are not cabling, communication components, or general hardware."
+          },
+          "class": {
+            "matched_name": "Batteries/Chargers",
+            "confidence": 1.0,
+            "reason": "Lithium iron phosphate battery cells are a type of rechargeable battery, directly falling under the 'Batteries/Chargers' category."
+          },
+          "brick": {
+            "matched_name": "Batteries",
+            "confidence": 0.95,
+            "reason": "Lithium iron phosphate battery cells are a type of rechargeable battery, falling directly under the broad category 'Batteries'; they are not battery boxes, chargers, or variety packs."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Batteries",
+          "hs_code": null,
+          "gpc_code": "Batteries"
+        }
+      },
+      {
+        "product_name": "automotive-grade MCU chips",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Automotive-grade MCU chips are semiconductor electronic components, not covered by any of the provided HS Level 1 categories, which are all agricultural, food, or raw natural product classifications."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Computing",
+            "confidence": 0.95,
+            "reason": "Automotive-grade MCU chips are microcontroller units used for embedded computing in vehicles, falling under the broader Computing segment."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Automotive-grade MCU chips are semiconductor components for automotive electronics, not consumer computers or video games."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "high-voltage automotive wiring harnesses",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "High-voltage automotive wiring harnesses are electrical components for vehicles, falling under machinery/electrical equipment categories, not covered by any of the provided agricultural, food, or raw natural product HS Level 1 classes."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "High-voltage automotive wiring harnesses are electrical components used for power and signal transmission in vehicles, falling under electrical supplies."
+          },
+          "family": {
+            "matched_name": "Electrical Cabling/Wiring",
+            "confidence": 0.95,
+            "reason": "High-voltage automotive wiring harnesses are assemblies of insulated wires and cables designed for power transmission, falling directly under cabling/wiring."
+          },
+          "class": {
+            "matched_name": "Electrical Wiring",
+            "confidence": 0.95,
+            "reason": "High-voltage automotive wiring harnesses are specialized assemblies of wires and connectors used for power and signal transmission in vehicles, falling directly under Electrical Wiring, which encompasses wiring systems for electrical distribution and control in industrial and automotive contexts."
+          },
+          "brick": {
+            "matched_name": "Electrical Wires",
+            "confidence": 0.85,
+            "reason": "High-voltage automotive wiring harnesses are assemblies of electrical wires designed for vehicle power and signal transmission, falling under the broader GPC Brick 'Electrical Wires'."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Electrical Wires",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "die-cast aluminum body structural components",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Product is die-cast aluminum structural components, which are metal industrial parts; none of the HS Level 1 candidates pertain to metals or manufactured metal goods."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Building Products",
+            "confidence": 0.95,
+            "reason": "Die-cast aluminum body structural components are used in construction and building frameworks, aligning with Building Products."
+          },
+          "family": {
+            "matched_name": "Building Products",
+            "confidence": 0.8,
+            "reason": "Die-cast aluminum body structural components are commonly used in construction and building infrastructure, aligning with Building Products."
+          },
+          "class": {
+            "matched_name": "Structural Components/Assemblies",
+            "confidence": 0.95,
+            "reason": "Product is explicitly 'structural components' and 'die-cast aluminum body' aligns with structural assemblies used in construction or industrial applications."
+          },
+          "brick": {
+            "matched_name": "Metal Components (Dimension/Structural)",
+            "confidence": 0.95,
+            "reason": "Product is die-cast aluminum structural components, directly aligning with metal-based dimensional/structural components."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Metal Components (Dimension/Structural)",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      }
+    ],
+    "extraction_status": "success"
+  },
+  {
+    "news_metadata": {
+      "title": "TSMC Breaks Ground on Second Arizona Fab, Secures Local Supply of Semiconductor Materials",
+      "content": "PHOENIX, Ariz. (AP) — Taiwan Semiconductor Manufacturing Co. (TSMC) held a groundbreaking ceremony for its second advanced chip fabrication plant in Phoenix, Arizona on Thursday, doubling its planned U.S. investment to $65 billion.\nThe new 3nm fab, scheduled to start production in 2028, will have a monthly wafer capacity of 50,000 12-inch silicon wafers, primarily manufacturing chips for Apple, Nvidia, and AMD. TSMC’s first Arizona fab, set to start 4nm chip production this year, is already 90% complete, with 1,200 pieces of manufacturing equipment being installed.\nTSMC also announced multi-year supply agreements with U.S. and European chemical manufacturers to secure critical materials for its U.S. operations, including ultra-high-purity semiconductor-grade sulfuric acid from BASF, ArF immersion photoresist from JSR Corp, and IC packaging substrates from Shinko Electric Industries.\nThe company has also ordered 18 high-precision wafer probe test systems from Tokyo Electron, and 24 extreme ultraviolet (EUV) lithography systems from ASML, to be delivered over the next three years.\nU.S. Commerce Secretary said the TSMC expansion is a cornerstone of the Biden administration’s efforts to rebuild domestic semiconductor supply chains and reduce reliance on overseas chip manufacturing.",
+      "date": "2026-01-28",
+      "url": "https://apnews.com/article/tsmc-arizona-fab-semiconductor-supply-3e4d5f6a7b8c9d0e1f2a3b4c5d6e7f8a",
+      "source": "AP News"
+    },
+    "extracted_products": [
+      "silicon wafers",
+      "manufacturing equipment",
+      "sulfuric acid",
+      "photoresist",
+      "IC packaging substrates",
+      "wafer probe test systems",
+      "extreme ultraviolet (EUV) lithography systems"
+    ],
+    "product_matches": [
+      {
+        "product_name": "silicon wafers",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Silicon wafers are semiconductor materials used in electronics, not covered by any of the agricultural, food, or biological product categories listed."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "Silicon wafers are fundamental semiconductor materials used in electronics manufacturing, falling under electrical components and supplies."
+          },
+          "family": {
+            "matched_name": "Electronic Communication Components",
+            "confidence": 0.85,
+            "reason": "Silicon wafers are foundational semiconductor substrates used in manufacturing electronic components, including those for communication devices; they align most closely with electronic components rather than cabling, distribution, or general hardware."
+          },
+          "class": {
+            "matched_name": "Electronic Communication Components",
+            "confidence": 0.8,
+            "reason": "Silicon wafers are fundamental semiconductor substrates used in manufacturing electronic communication components such as integrated circuits and RF devices."
+          },
+          "brick": {
+            "matched_name": "Discreet Components",
+            "confidence": 0.7,
+            "reason": "Silicon wafers are semiconductor substrates used to fabricate discrete components like diodes and transistors, not finished circuit assemblies or accessories."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Discreet Components",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "manufacturing equipment",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "manufacturing equipment is industrial machinery, not covered by any of the agricultural, food, or raw material categories listed"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Tools/Equipment",
+            "confidence": 0.95,
+            "reason": "Manufacturing equipment falls under industrial tools and equipment used for production processes."
+          },
+          "family": {
+            "matched_name": "Tools/Equipment",
+            "confidence": 0.95,
+            "reason": "Manufacturing equipment falls under the broad category of tools and equipment used in industrial production."
+          },
+          "class": {
+            "matched_name": "Tools/Equipment Other",
+            "confidence": 0.9,
+            "reason": "manufacturing equipment is a broad category not specifically covered by other more specialized classes, making 'Tools/Equipment Other' the most appropriate general match"
+          },
+          "brick": {
+            "matched_name": "Tools/Equipment Other",
+            "confidence": 0.95,
+            "reason": "Manufacturing equipment is a broad category of industrial tools/equipment, and 'Tools/Equipment Other' is the most general and appropriate match among the given candidates."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Tools/Equipment Other",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "sulfuric acid",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Sulfuric acid is an inorganic chemical compound, not covered by any of the given HS Level 1 categories which are all agricultural, food, or natural product related."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Fluids/Fuels/Gases",
+            "confidence": 0.95,
+            "reason": "Sulfuric acid is a chemical fluid commonly classified under industrial fluids, aligning with the 'Fluids/Fuels/Gases' segment."
+          },
+          "family": {
+            "matched_name": "Gases Not Used As Fuels",
+            "confidence": 0.3,
+            "reason": "Sulfuric acid is a liquid chemical, not a gas; none of the candidates are ideal, but 'Gases Not Used As Fuels' is least mismatched among the given options as it broadly covers non-fuel industrial chemicals, though inaccurately labeled as gases."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.30，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "photoresist",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "photoresist is a light-sensitive chemical used in semiconductor manufacturing, not covered by any of the agricultural, food, or natural product categories listed"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.85,
+            "reason": "Photoresist is a light-sensitive material used in semiconductor manufacturing and PCB fabrication, falling under industrial electrical/electronic component production supplies."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Photoresist is a light-sensitive material used in semiconductor manufacturing and photolithography, not related to cabling, connection/distribution, communication components, or general electrical hardware."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "IC packaging substrates",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "IC packaging substrates are semiconductor manufacturing materials, not covered by any of the agricultural, food, or raw biological product categories listed."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "IC packaging substrates are specialized electrical components used in semiconductor packaging, falling under electrical supplies rather than computing (which refers to end-user devices) or communications (a narrower application domain)."
+          },
+          "family": {
+            "matched_name": "Electronic Communication Components",
+            "confidence": 0.9,
+            "reason": "IC packaging substrates are specialized electronic components used in semiconductor packaging for interconnecting ICs to PCBs, falling under electronic communication components rather than generic cabling, connection/distribution, or hardware."
+          },
+          "class": {
+            "matched_name": "Electronic Communication Components",
+            "confidence": 0.9,
+            "reason": "IC packaging substrates are foundational electronic components used in semiconductor packaging for communication and computing devices."
+          },
+          "brick": {
+            "matched_name": "Circuit Assemblies/Integrated Circuits",
+            "confidence": 0.9,
+            "reason": "IC packaging substrates are foundational components used to mount and interconnect integrated circuits, falling under circuit assemblies rather than discrete parts or generic accessories."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Circuit Assemblies/Integrated Circuits",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "wafer probe test systems",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Wafer probe test systems are semiconductor manufacturing/test equipment, not covered by any of the listed agricultural, food, or raw natural product categories."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Computing",
+            "confidence": 0.9,
+            "reason": "Wafer probe test systems are semiconductor testing equipment used in IC manufacturing and validation, closely aligned with computing hardware development and production."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Wafer probe test systems are semiconductor manufacturing equipment, not computers or video games."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "extreme ultraviolet (EUV) lithography systems",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "EUV lithography systems are high-precision semiconductor manufacturing equipment, not covered by any of the agricultural, food, or raw material categories listed."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Computing",
+            "confidence": 0.9,
+            "reason": "EUV lithography systems are critical semiconductor manufacturing tools used to fabricate advanced microprocessors and memory chips, which are foundational to computing hardware."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "EUV lithography systems are semiconductor manufacturing equipment, not computers or video games."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      }
+    ],
+    "extraction_status": "success"
+  },
+  {
+    "news_metadata": {
+      "title": "BASF Launches New Specialty Chemicals Production Line at Ludwigshafen Site, Targets Packaging and Automotive Supply Chains",
+      "content": "LUDWIGSHAFEN, Germany (AP) — German chemical giant BASF formally launched a new €420 million specialty chemicals production line at its headquarters Ludwigshafen Verbund site on Tuesday, expanding its capacity for high-performance polymers and industrial catalysts.\nThe new facility will produce 180,000 tons of food-grade polycarbonate resin annually, used for food and beverage packaging, medical device housings, and automotive interior components. A co-located production unit will also manufacture 60,000 tons of polypropylene nonwoven fabric each year, a key material for hygiene products and industrial filtration systems.\nBASF also announced the startup of a new catalyst production unit, which will supply nickel-based hydrogenation catalysts to European refineries, and bio-based biodegradable polyester chips for the global packaging industry.\nThe company said the expansion will strengthen supply chain reliability for its European and North American customers, with 70% of the production output already locked in via 5-year supply contracts with packaging manufacturers and automotive tier-1 suppliers.\nBASF’s chief operating officer said the investment is part of the company’s strategy to localize high-value chemical production and reduce reliance on long-haul imports from Asia.",
+      "date": "2026-02-03",
+      "url": "https://apnews.com/article/basf-specialty-chemicals-supply-chain-9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d",
+      "source": "AP News"
+    },
+    "extracted_products": [
+      "food-grade polycarbonate resin",
+      "polypropylene nonwoven fabric",
+      "nickel-based hydrogenation catalysts",
+      "bio-based biodegradable polyester chips"
+    ],
+    "product_matches": [
+      {
+        "product_name": "food-grade polycarbonate resin",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "food-grade polycarbonate resin is a synthetic polymer, not covered by any of the listed HS Level 1 categories which are all agricultural, food, or natural product based"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Raw Materials (Non Food)",
+            "confidence": 0.95,
+            "reason": "Food-grade polycarbonate resin is a polymer material used in manufacturing, not consumed as food; 'food-grade' indicates safety for food contact but does not make it a food item itself, so it belongs to non-food raw materials."
+          },
+          "family": {
+            "matched_name": "Unformed Raw Material",
+            "confidence": 0.95,
+            "reason": "Food-grade polycarbonate resin is a polymer in raw, unshaped form used as input material for manufacturing, fitting 'Unformed Raw Material' rather than a finished formed product."
+          },
+          "class": {
+            "matched_name": "Raw Material (Unformed)",
+            "confidence": 0.95,
+            "reason": "Food-grade polycarbonate resin is an unformed polymer raw material used in manufacturing, fitting the 'Raw Material (Unformed)' class."
+          },
+          "brick": {
+            "matched_name": "Plastics (Unformed)",
+            "confidence": 0.95,
+            "reason": "Polycarbonate resin is a thermoplastic polymer, falling under unformed plastics."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Plastics (Unformed)",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "polypropylene nonwoven fabric",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "polypropylene nonwoven fabric is a synthetic polymer textile product, not covered by any of the listed HS Level 1 categories which are all agricultural, food, or natural biological products."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Building Products",
+            "confidence": 0.85,
+            "reason": "Polypropylene nonwoven fabric is commonly used in construction applications such as geotextiles, insulation backing, and underlayment, aligning with Building Products."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Polypropylene nonwoven fabric is a textile material, not a building product; no suitable match in candidates."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "nickel-based hydrogenation catalysts",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Nickel-based hydrogenation catalysts are industrial chemical catalysts, not covered by any of the listed HS Level 1 categories, which are all agricultural, food, or raw natural product classifications."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Fluids/Fuels/Gases",
+            "confidence": 0.85,
+            "reason": "Nickel-based hydrogenation catalysts are used in chemical processing of fluids/fuels/gases, particularly in hydrogenation reactions involving hydrocarbons and other gaseous or liquid feedstocks."
+          },
+          "family": {
+            "matched_name": "Gases Not Used As Fuels",
+            "confidence": 0.6,
+            "reason": "Nickel-based hydrogenation catalysts are used in chemical processing involving hydrogen gas, which is a non-fuel gas in this context; they are not fuels, fuel additives, or related to fluid storage/transfer."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.60，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "bio-based biodegradable polyester chips",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Bio-based biodegradable polyester chips are synthetic polymer materials, not covered by any of the listed agricultural, food, or natural product categories."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Building Products",
+            "confidence": 0.7,
+            "reason": "Bio-based biodegradable polyester chips are polymer raw materials often used in manufacturing construction-related products like insulation, panels, or composites."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Bio-based biodegradable polyester chips are raw material feedstocks, not finished building products."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      }
+    ],
+    "extraction_status": "success"
+  },
+  {
+    "news_metadata": {
+      "title": "COFCO Signs $3.2B Annual Grain and Protein Supply Deal with Brazilian Producers, Expands Cold Chain Fleet",
+      "content": "SANTOS, Brazil (AP) — China’s COFCO International has signed a $3.2 billion annual supply agreement with Brazilian agricultural producers on Friday, securing steady imports of non-GMO soybeans, corn, and frozen beef for the Chinese market.\nThe 12-month deal includes 2.8 million tons of non-GMO soybeans for edible oil and animal feed production, 1.2 million tons of corn, and 180,000 tons of halal frozen beef from Brazil’s southern cattle-producing states.\nTo support the increased trade volume, COFCO also announced a $450 million investment to expand its cold chain logistics fleet, ordering 25 new 40-foot reefer shipping containers from Maersk Container Industry, and 12 refrigerated bulk cargo vessels to be built at Chinese shipyards.\nAdditional supply chain investments include new grain fumigation equipment at the Port of Santos, and food-grade composite packaging film production lines at COFCO’s Brazilian packaging subsidiary, to ensure compliance with Chinese food safety import standards.\nBrazil’s agriculture ministry said the deal will solidify Brazil’s position as China’s top supplier of agricultural commodities, with bilateral agricultural trade expected to exceed $60 billion in 2026.",
+      "date": "2026-02-10",
+      "url": "https://apnews.com/article/cofco-brazil-grain-supply-cold-chain-2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a",
+      "source": "AP News"
+    },
+    "extracted_products": [
+      "non-GMO soybeans",
+      "corn",
+      "halal frozen beef",
+      "40-foot reefer shipping containers",
+      "refrigerated bulk cargo vessels",
+      "grain fumigation equipment",
+      "food-grade composite packaging film"
+    ],
+    "product_matches": [
+      {
+        "product_name": "non-GMO soybeans",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": "12. 含油子仁及果实;杂项子仁及果实;工业用或药用植物;稻草、秸杆及饲料",
+            "confidence": 0.95,
+            "reason": "Soybeans are oilseeds, primarily classified under HS Chapter 12 for oil-bearing seeds and fruits."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.95，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Crops",
+            "confidence": 0.95,
+            "reason": "Non-GMO soybeans are an agricultural crop, directly falling under the 'Crops' segment."
+          },
+          "family": {
+            "matched_name": "Crops for Food Production",
+            "confidence": 0.95,
+            "reason": "Non-GMO soybeans are primarily grown for human food consumption (e.g., tofu, soy milk, edamame) and fall under food-grade crops."
+          },
+          "class": {
+            "matched_name": "Crops for Production of Edible Groundnuts",
+            "confidence": 0.95,
+            "reason": "Soybeans are legumes commonly classified under groundnuts in agricultural and GPC classification contexts, despite not being true peanuts; 'Edible Groundnuts' is the closest applicable category for soybean production."
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Non-GMO soybeans are Glycine max, not listed in candidates; all candidates are groundnut-related legumes, not soybeans."
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Brick匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Crops for Production of Edible Groundnuts",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "corn",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": "10. 谷物",
+            "confidence": 1.0,
+            "reason": "corn is a cereal grain, classified under HS Chapter 10 for grains"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度1.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Crops",
+            "confidence": 0.95,
+            "reason": "Corn is an agricultural crop, directly matching the 'Crops' segment."
+          },
+          "family": {
+            "matched_name": "Crops for Food Production",
+            "confidence": 0.95,
+            "reason": "Corn is primarily cultivated as a staple food crop for human consumption and also used in food processing."
+          },
+          "class": {
+            "matched_name": "Cereals and Grains Crops",
+            "confidence": 1.0,
+            "reason": "Corn is a cereal grain, commonly classified under cereals and grains crops in agricultural and GPC taxonomies."
+          },
+          "brick": {
+            "matched_name": "Maizeplants (Zea Mays subsp. Mays)",
+            "confidence": 1.0,
+            "reason": "Corn is the common name for Zea mays subsp. mays."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Maizeplants (Zea Mays subsp. Mays)",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "halal frozen beef",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": "肉及食用杂碎",
+            "confidence": 0.95,
+            "reason": "halal frozen beef is beef meat, which falls under '肉及食用杂碎' (Chapter 2), as it is unprocessed frozen meat, not a prepared or preserved product."
+          },
+          "level2": {
+            "matched_name": "冻牛肉",
+            "confidence": 0.95,
+            "reason": "Product is frozen beef; '冻牛肉' directly matches the description, and 'halal' is a certification not affecting HS classification at this level."
+          },
+          "level3": {
+            "matched_name": "冻去骨牛肉",
+            "confidence": 0.9,
+            "reason": "Halal frozen beef is typically processed as boneless cuts for consumer and foodservice use, aligning with '冻去骨牛肉'; 'halal' indicates religious certification but does not affect HS classification, which is based on physical form."
+          },
+          "match_status": "success",
+          "fail_reason": "HS三层级匹配完成"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Food/Beverage",
+            "confidence": 0.95,
+            "reason": "halal frozen beef is a food product, specifically a frozen meat item, falling under the Food/Beverage segment"
+          },
+          "family": {
+            "matched_name": "Meat/Poultry/Other Animals",
+            "confidence": 0.95,
+            "reason": "Halal frozen beef is a processed animal-derived meat product, and 'Meat/Poultry/Other Animals' is the most specific GPC Family covering beef under halal certification and frozen state."
+          },
+          "class": {
+            "matched_name": "Meat/Poultry/Other Animals - Unprepared/Unprocessed",
+            "confidence": 0.9,
+            "reason": "Halal frozen beef is unprocessed beef meat, frozen for preservation but not cooked, cured, or otherwise prepared."
+          },
+          "brick": {
+            "matched_name": "Beef - Unprepared/Unprocessed",
+            "confidence": 0.95,
+            "reason": "Product is frozen beef, which falls under unprepared/unprocessed beef; 'halal' is a certification attribute, not a category modifier."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": "冻去骨牛肉",
+          "gpc_name": "Beef - Unprepared/Unprocessed",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "40-foot reefer shipping containers",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "40-foot reefer shipping containers are transport equipment, not covered by any of the listed agricultural, food, or natural product categories"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Storage/Haulage Containers",
+            "confidence": 1.0,
+            "reason": "40-foot reefer shipping containers are specialized temperature-controlled transport and storage units, directly matching the 'Storage/Haulage Containers' segment."
+          },
+          "family": {
+            "matched_name": "Storage/Haulage Freight Containers (Empty)",
+            "confidence": 0.95,
+            "reason": "40-foot reefer shipping containers are temperature-controlled freight containers used for transport and storage, directly matching the candidate category."
+          },
+          "class": {
+            "matched_name": "Bulk Freight Containers (Empty)",
+            "confidence": 0.95,
+            "reason": "40-foot reefer shipping containers are temperature-controlled freight containers used for transporting goods, and when empty, they fall under bulk freight containers."
+          },
+          "brick": {
+            "matched_name": "Ocean Intermodal Freight Containers (Empty)",
+            "confidence": 0.95,
+            "reason": "40-foot reefer shipping containers are standard ocean intermodal freight containers designed for temperature-controlled transport by sea, rail, and road."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Ocean Intermodal Freight Containers (Empty)",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "refrigerated bulk cargo vessels",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Refrigerated bulk cargo vessels are maritime transport vessels, not agricultural, food, or biological products covered by any HS Level 1 category listed."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Building Products",
+            "confidence": 0.6,
+            "reason": "Refrigerated bulk cargo vessels are specialized maritime transport infrastructure, falling under industrial/building-related capital equipment rather than consumer goods; 'Building Products' is the closest broad category among candidates."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Segment匹配置信度0.60，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "grain fumigation equipment",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Grain fumigation equipment is machinery/equipment, not a commodity covered by any of the listed HS Level 1 categories, which are all agricultural or food-related products."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Tools/Equipment",
+            "confidence": 0.95,
+            "reason": "Grain fumigation equipment is specialized industrial machinery used for pest control in grain storage, falling under general tools and equipment rather than agriculture-specific segments like Crops or Horticulture Plants."
+          },
+          "family": {
+            "matched_name": "Tools/Equipment",
+            "confidence": 0.95,
+            "reason": "Grain fumigation equipment is a specialized industrial tool used for pest control in stored grains, falling under the broad category of Tools/Equipment."
+          },
+          "class": {
+            "matched_name": "Tools/Equipment Other",
+            "confidence": 0.85,
+            "reason": "Grain fumigation equipment is specialized agricultural/industrial equipment not covered by other specific tool categories; 'Tools/Equipment Other' is the most appropriate catch-all class."
+          },
+          "brick": {
+            "matched_name": "Tools/Equipment Other",
+            "confidence": 0.95,
+            "reason": "Grain fumigation equipment is a specialized industrial tool/equipment used for pest control in grain storage, falling under the broad category 'Tools/Equipment Other' rather than consumables or replacement parts."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Tools/Equipment Other",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "food-grade composite packaging film",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Food-grade composite packaging film is a plastic/industrial packaging material, not a food or agricultural product; none of the HS Level 1 categories cover packaging materials."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Food/Beverage",
+            "confidence": 0.95,
+            "reason": "Food-grade composite packaging film is specifically designed for packaging food products, falling directly under the Food/Beverage segment."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Packaging film is not a food product; it is a packaging material, and none of the candidates represent packaging materials."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      }
+    ],
+    "extraction_status": "success"
+  },
+  {
+    "news_metadata": {
+      "title": "Siemens Gamesa Secures €4.8B Offshore Wind Farm Contract in North Sea, Locks in Component Supply Chain",
+      "content": "COPENHAGEN, Denmark (AP) — Siemens Gamesa Renewable Energy has signed a €4.8 billion contract with Danish energy firm Ørsted on Monday, to supply and install 142 offshore wind turbines for the 2.8GW Hornsea 3 wind farm in the UK North Sea.\nThe contract includes 142 of Siemens Gamesa’s 14MW offshore wind turbines, each fitted with 115-meter carbon fiber wind turbine blades, a heavy-duty planetary gearbox, and a permanent magnet synchronous generator. The project is scheduled to be fully operational by 2029, and will generate enough electricity to power 3.2 million UK households.\nSiemens Gamesa also announced multi-year supply agreements to stabilize its European wind turbine supply chain, including a €1.2 billion order for carbon fiber composite materials from Toray Industries, and €800 million in wind turbine tower sections from Spanish steel fabricator Windar Renovables.\nAdditional contracts were awarded for 220kV submarine high-voltage power cables from Nexans, and turbine condition monitoring systems from SKF. The company said the long-term supply deals will mitigate steel and composite material price volatility, and ensure on-time delivery for the project.",
+      "date": "2026-02-17",
+      "url": "https://apnews.com/article/siemens-gamesa-offshore-wind-supply-chain-5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c",
+      "source": "AP News"
+    },
+    "extracted_products": [
+      "14MW offshore wind turbines",
+      "115-meter carbon fiber wind turbine blades",
+      "heavy-duty planetary gearbox",
+      "permanent magnet synchronous generator",
+      "carbon fiber composite materials",
+      "wind turbine tower sections",
+      "220kV submarine high-voltage power cables",
+      "turbine condition monitoring systems"
+    ],
+    "product_matches": [
+      {
+        "product_name": "14MW offshore wind turbines",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Offshore wind turbines are industrial machinery, not covered by any of the listed agricultural, food, or raw natural product categories."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Building Products",
+            "confidence": 0.85,
+            "reason": "Offshore wind turbines are large-scale infrastructure components used in energy generation and fall under construction-related industrial equipment, best aligned with Building Products among the given candidates."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Offshore wind turbines are energy generation equipment, not building products."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "115-meter carbon fiber wind turbine blades",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Wind turbine blades are industrial machinery components, not covered by any of the listed agricultural, food, or raw biological product categories."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Building Products",
+            "confidence": 0.85,
+            "reason": "Carbon fiber wind turbine blades are structural components used in renewable energy infrastructure, falling under construction-related industrial building products."
+          },
+          "family": {
+            "matched_name": "Building Products",
+            "confidence": 0.3,
+            "reason": "Wind turbine blades are industrial energy components, not typically classified under building products; weak association due to structural material (carbon fiber) overlap with construction materials."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.30，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "heavy-duty planetary gearbox",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Heavy-duty planetary gearbox is a mechanical industrial component, not covered by any of the listed HS Level 1 categories which are all agricultural, food, or raw natural product classifications."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Building Products",
+            "confidence": 0.85,
+            "reason": "Heavy-duty planetary gearboxes are commonly used in construction equipment and industrial machinery within the building products sector."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Heavy-duty planetary gearbox is a mechanical power transmission component, not a building product."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "permanent magnet synchronous generator",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Permanent magnet synchronous generator is an electromechanical device, not covered by any of the agricultural, food, or raw natural product categories listed."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "Permanent magnet synchronous generator is an electrical power generation device, falling under electrical equipment and supplies."
+          },
+          "family": {
+            "matched_name": "Electrical Connection/Distribution",
+            "confidence": 0.7,
+            "reason": "Permanent magnet synchronous generators are power generation devices that interface with electrical distribution systems; they are not cabling, communication components, or general hardware, but fall under broader electrical connection and distribution infrastructure."
+          },
+          "class": {
+            "matched_name": "Electrical Generation",
+            "confidence": 0.95,
+            "reason": "Permanent magnet synchronous generator is a device that converts mechanical energy into electrical energy, falling directly under electrical generation."
+          },
+          "brick": {
+            "matched_name": "Generators",
+            "confidence": 0.95,
+            "reason": "Permanent magnet synchronous generator is a type of electrical generator, directly matching the 'Generators' brick."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Generators",
+          "hs_code": null,
+          "gpc_code": "Generators"
+        }
+      },
+      {
+        "product_name": "carbon fiber composite materials",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Carbon fiber composite materials are synthetic industrial materials, not covered by any of the listed HS Level 1 categories which are all agricultural, food, or natural animal/plant-based products."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Raw Materials (Non Food)",
+            "confidence": 0.95,
+            "reason": "Carbon fiber composite materials are industrial raw materials used in manufacturing, not food-related, and fall under non-food raw materials."
+          },
+          "family": {
+            "matched_name": "Unformed Raw Material",
+            "confidence": 0.9,
+            "reason": "Carbon fiber composite materials are typically supplied as raw, unshaped forms (e.g., sheets, prepregs, fibers) for further processing, aligning with Unformed Raw Material."
+          },
+          "class": {
+            "matched_name": "Raw Material (Unformed)",
+            "confidence": 0.95,
+            "reason": "Carbon fiber composite materials are unformed raw materials used in manufacturing, not finished parts or components."
+          },
+          "brick": {
+            "matched_name": "Raw Material (Unformed) - Others",
+            "confidence": 0.9,
+            "reason": "Carbon fiber composite materials are advanced engineered raw materials not covered by the specific unformed metal, plastic, or other listed categories."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Raw Material (Unformed) - Others",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "wind turbine tower sections",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Wind turbine tower sections are industrial metal structures, not covered by any of the agricultural, food, or biological product categories listed."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Building Products",
+            "confidence": 0.95,
+            "reason": "Wind turbine tower sections are structural components used in construction of renewable energy infrastructure, falling under building-related industrial products."
+          },
+          "family": {
+            "matched_name": "Building Products",
+            "confidence": 0.8,
+            "reason": "Wind turbine tower sections are structural components used in construction of energy infrastructure, falling under broad building and construction materials category."
+          },
+          "class": {
+            "matched_name": "Outdoor Roof/Shelter Structures",
+            "confidence": 0.85,
+            "reason": "Wind turbine tower sections are structural components supporting outdoor energy infrastructure, closely aligned with large-scale outdoor shelter or support structures."
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Wind turbine tower sections are structural components for wind energy generation, not shelter or parking structures; none of the candidates (Carport, Garage, Patio Roof/Shelter) apply."
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Brick匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Outdoor Roof/Shelter Structures",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "220kV submarine high-voltage power cables",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Submarine high-voltage power cables are electrical equipment, not covered by any of the provided HS Level 1 categories which are all agricultural, food, or raw natural product classifications."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "220kV submarine high-voltage power cables are specialized electrical infrastructure components used for power transmission, falling directly under Electrical Supplies."
+          },
+          "family": {
+            "matched_name": "Electrical Cabling/Wiring",
+            "confidence": 0.95,
+            "reason": "220kV submarine high-voltage power cables are specialized power transmission cables, falling directly under cabling/wiring for electrical power distribution."
+          },
+          "class": {
+            "matched_name": "Electrical Cables",
+            "confidence": 0.95,
+            "reason": "220kV submarine high-voltage power cables are specialized electrical cables designed for power transmission, directly matching the 'Electrical Cables' class."
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "220kV submarine high-voltage power cables are power transmission cables, not computer, telecommunication, audio visual, or satellite installation cables"
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Brick匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Electrical Cables",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "turbine condition monitoring systems",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Turbine condition monitoring systems are industrial electronic/mechanical diagnostic devices, not covered by any of the agricultural, food, or raw natural product categories listed."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Industrial Fluid Pumps/Systems",
+            "confidence": 0.85,
+            "reason": "Turbine condition monitoring systems are used in industrial settings to monitor performance and health of turbines, which are core components in fluid power systems, energy generation, and process industries; this aligns closely with Industrial Fluid Pumps/Systems as the most relevant GPC Segment."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Turbine condition monitoring systems are diagnostic/monitoring equipment, not pumps or pump-related components."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      }
+    ],
+    "extraction_status": "success"
+  }
+]

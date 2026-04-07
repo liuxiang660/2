@@ -1,0 +1,175 @@
+[
+  {
+    "news_metadata": {
+      "title": "测试：特斯拉上海工厂上游零部件到港延迟，电动车交付节奏承压",
+      "content": "受港口临时拥堵与跨境运输排队影响，特斯拉上海工厂部分关键零部件到货时间延后，包括动力电池相关材料、车规级芯片与线束组件。多家供应商表示正在协调空运与铁路联运以缓解交付压力，预计未来一周整车排产与出货节奏将出现阶段性波动。",
+      "date": "2026-04-07",
+      "url": "https://example.com/test/tesla-shanghai-supply-delay-20260407",
+      "source": "测试数据源"
+    },
+    "extracted_products": [
+      "动力电池相关材料",
+      "车规级芯片",
+      "线束组件"
+    ],
+    "product_matches": [
+      {
+        "product_name": "动力电池相关材料",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "动力电池相关材料 refers to materials for power batteries (e.g., lithium, cathode/anode materials, electrolytes), which are industrial chemical or mineral-based components, not covered by any of the given HS Level 1 categories focused on agricultural, food, animal, or plant products."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.9,
+            "reason": "动力电池相关材料 (power battery related materials) are core components for electrical energy storage and supply, falling under Electrical Supplies in GPC segmentation."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "动力电池相关材料 (power battery related materials) does not match any of the given electrical hardware or cabling/distribution categories; it belongs to battery materials, which is outside the scope of the candidates."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "车规级芯片",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "车规级芯片属于半导体集成电路，不属于任何给定的农产品或初级加工品HS大类"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Computing",
+            "confidence": 0.9,
+            "reason": "Car-grade chips are semiconductor components used in automotive electronics and embedded systems, falling under computing hardware infrastructure."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "车规级芯片 refers to automotive-grade semiconductor chips, which are components used in automotive electronics, not consumer computers or video games."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "线束组件",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "线束组件是电气连接部件，属于工业制成品，不在所列农业、食品、动植物类HS Level 1大类中"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "线束组件 (wire harness assemblies) are electrical interconnection components used in wiring systems, falling under electrical supplies."
+          },
+          "family": {
+            "matched_name": "Electrical Cabling/Wiring",
+            "confidence": 0.95,
+            "reason": "线束组件 (wire harness assembly) is a core product within electrical cabling/wiring, consisting of bundled wires and connectors for power and signal transmission."
+          },
+          "class": {
+            "matched_name": "Electrical Wiring",
+            "confidence": 0.95,
+            "reason": "线束组件 (harness assembly) refers to bundled electrical wires with connectors, directly falling under Electrical Wiring as a functional and structural wiring unit."
+          },
+          "brick": {
+            "matched_name": "Electrical Wires",
+            "confidence": 0.8,
+            "reason": "线束组件 (wire harness assembly) is a collection of electrical wires bundled together, falling under the broader GPC Brick 'Electrical Wires'."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Electrical Wires",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      }
+    ],
+    "extraction_status": "success"
+  }
+]

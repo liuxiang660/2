@@ -1,0 +1,175 @@
+[
+  {
+    "news_metadata": {
+      "title": "测试：高端光刻机关键部件交付延迟，芯片产线扩产节奏放缓",
+      "content": "受精密光学模组与高功率激光子系统交付周期拉长影响，某晶圆厂新一批高端光刻机安装计划出现延期。设备供应商与系统集成商正在协调分批到货与现场并行调试方案，以降低对先进制程产线爬坡的影响。业内预计，短期内相关芯片制造环节的设备利用率与交付节奏将出现波动。",
+      "date": "2026-04-08",
+      "url": "https://example.com/test/lithography-supply-delay-20260408",
+      "source": "测试数据源"
+    },
+    "extracted_products": [
+      "光刻机",
+      "精密光学模组",
+      "高功率激光子系统"
+    ],
+    "product_matches": [
+      {
+        "product_name": "光刻机",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "光刻机是半导体制造用高端工业设备，不属于任何所列农产品或初级加工品大类"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Communications",
+            "confidence": 0.6,
+            "reason": "Photolithography machines are semiconductor manufacturing equipment used in microelectronics, closely tied to communications hardware production."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Segment匹配置信度0.60，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "精密光学模组",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "精密光学模组属于高科技光电设备部件，不在所列农业、食品、动植物等初级或传统加工产品大类中"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Audio Visual/Photography",
+            "confidence": 0.9,
+            "reason": "Precision optical modules are commonly used in photography, imaging, and audio-visual equipment such as cameras, projectors, and optical sensors."
+          },
+          "family": {
+            "matched_name": "Photography/Optics",
+            "confidence": 0.95,
+            "reason": "精密光学模组 refers to precision optical modules, which fall under optics used in photography and imaging applications."
+          },
+          "class": {
+            "matched_name": "Optics",
+            "confidence": 0.95,
+            "reason": "Precision optical module is a core component in optics, involving lenses, mirrors, and optical alignment systems."
+          },
+          "brick": {
+            "matched_name": "Optics - Replacement Parts/Accessories",
+            "confidence": 0.85,
+            "reason": "精密光学模组 (precision optical modules) typically refers to integrated optical components or subsystems used in larger systems, aligning best with replacement parts/accessories rather than end-user devices like binoculars or microscopes."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Optics - Replacement Parts/Accessories",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "高功率激光子系统",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "高功率激光子系统属于高科技工业设备，不在所列农业、食品、动植物产品等HS Level 1大类范围内"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.85,
+            "reason": "High-power laser subsystems are specialized electrical components used in industrial, scientific, or medical equipment, falling under broad electrical supply categorization."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "High-power laser subsystem is not covered by any of the given electrical/cabling/hardware categories; it belongs to optoelectronics or laser systems, outside the candidate scope."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      }
+    ],
+    "extraction_status": "success"
+  }
+]

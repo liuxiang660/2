@@ -1,0 +1,345 @@
+[
+  {
+    "news_metadata": {
+      "title": "Ford Inaugurates $2.5B EV Manufacturing Complex in Mexico, Secures Multi-Year Supply Deals",
+      "content": "RAMOS ARISPE, Mexico (AP) — Ford Motor Co. formally inaugurated its $2.5 billion electric vehicle manufacturing complex in northern Mexico on Wednesday, marking the automaker’s largest nearshoring investment in North America to date.\nThe 900-acre facility will produce next-generation electric pickup trucks and SUVs for the U.S. and Mexican markets, with an annual production capacity of 250,000 EVs. The plant features fully automated stamping and welding lines, fitted with 320 industrial robotic arms, and a dedicated battery assembly workshop.\nFord also announced 10-year supply agreements with global component manufacturers to stabilize its EV supply chain, including: $1.8 billion in orders for 1200V silicon carbide power modules from onsemi; $1.2 billion in lithium iron phosphate battery cells from CATL’s new Mexico plant; and $750 million in automotive-grade MCU chips from NXP Semiconductors.\nAdditional local supply contracts were awarded to Mexican manufacturers, including high-voltage automotive wiring harnesses from Lear Corp, and die-cast aluminum body structural components from Nemak. The company said the localized supply chain will cut cross-border logistics costs by 18% and reduce production lead times by 12 days.\nMexico’s economy ministry said the Ford complex will create 4,600 direct jobs and drive an additional 12,000 indirect jobs in the regional auto parts supply chain.",
+      "date": "2026-01-22",
+      "url": "https://apnews.com/article/ford-ev-mexico-supply-chain-7f2d9a8b6c5e4d3f2a1b0c9d8e7f6a5b",
+      "source": "AP News"
+    },
+    "extracted_products": [
+      "electric pickup trucks",
+      "electric SUVs",
+      "silicon carbide power modules",
+      "lithium iron phosphate battery cells",
+      "automotive-grade MCU chips",
+      "high-voltage automotive wiring harnesses",
+      "die-cast aluminum body structural components"
+    ],
+    "product_matches": [
+      {
+        "product_name": "electric pickup trucks",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Electric pickup trucks are motor vehicles, not covered by any of the listed HS Level 1 categories, which are all agricultural, food, or raw natural product classifications."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.7,
+            "reason": "Electric pickup trucks are powered by electricity and fall under electrical-powered vehicles, aligning with Electrical Supplies as the broadest applicable segment among candidates."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Electric pickup trucks are motor vehicles, not electrical components or hardware; none of the candidates match."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        }
+      },
+      {
+        "product_name": "electric SUVs",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "electric SUVs are motor vehicles, not covered by any of the listed HS Level 1 categories which are all agricultural, food, or raw natural product categories"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.7,
+            "reason": "Electric SUVs are powered by electricity and involve electrical systems, batteries, and charging infrastructure, aligning most closely with Electrical Supplies among the given candidates."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Electric SUVs are vehicles, not electrical components or hardware; none of the candidates relate to automotive products."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        }
+      },
+      {
+        "product_name": "silicon carbide power modules",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Silicon carbide power modules are semiconductor electronic components, falling outside all provided HS Level 1 categories which cover agricultural, food, raw material, and natural product classifications."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "Silicon carbide power modules are semiconductor-based electrical components used for power conversion and control in electrical systems."
+          },
+          "family": {
+            "matched_name": "Electrical Connection/Distribution",
+            "confidence": 0.85,
+            "reason": "Silicon carbide power modules are semiconductor-based power electronic devices used for switching and power conversion, typically integrated into power distribution and connection systems."
+          },
+          "class": {
+            "matched_name": "Electrical Distribution",
+            "confidence": 0.85,
+            "reason": "Silicon carbide power modules are used for efficient power conversion and control in electrical distribution systems, such as inverters and converters in industrial and energy applications."
+          },
+          "brick": {
+            "matched_name": "Converters/Transformers",
+            "confidence": 0.85,
+            "reason": "Silicon carbide power modules are used in high-efficiency power conversion and voltage transformation applications, aligning with converters/transformers functionality."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        }
+      },
+      {
+        "product_name": "lithium iron phosphate battery cells",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Lithium iron phosphate battery cells are electrochemical energy storage devices, falling under industrial/manufactured goods, not covered by any of the provided agricultural, food, or raw natural product HS Level 1 categories."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "Lithium iron phosphate battery cells are rechargeable energy storage components used in electrical systems, power tools, EVs, and backup power, falling under electrical supplies."
+          },
+          "family": {
+            "matched_name": "Electrical Connection/Distribution",
+            "confidence": 0.7,
+            "reason": "Lithium iron phosphate battery cells are energy storage components often integrated into power distribution systems, and 'Electrical Connection/Distribution' is the closest category among the given options for power-related electrical components; they are not cabling, communication components, or general hardware."
+          },
+          "class": {
+            "matched_name": "Batteries/Chargers",
+            "confidence": 1.0,
+            "reason": "Lithium iron phosphate battery cells are a type of rechargeable battery, directly falling under the 'Batteries/Chargers' category."
+          },
+          "brick": {
+            "matched_name": "Batteries",
+            "confidence": 0.95,
+            "reason": "Lithium iron phosphate battery cells are a type of rechargeable battery, falling directly under the broad category 'Batteries'; they are not battery boxes, chargers, or variety packs."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        }
+      },
+      {
+        "product_name": "automotive-grade MCU chips",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Automotive-grade MCU chips are semiconductor electronic components, not covered by any of the listed HS Level 1 categories, which are all agricultural, food, or raw natural product classifications."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Computing",
+            "confidence": 0.95,
+            "reason": "Automotive-grade MCU chips are microcontroller units used for embedded computing in vehicles, falling under the broader Computing segment."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Automotive-grade MCU chips are semiconductor components for automotive electronics, not consumer computers or video games."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        }
+      },
+      {
+        "product_name": "high-voltage automotive wiring harnesses",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "High-voltage automotive wiring harnesses are electrical components for vehicles, falling under machinery/electrical equipment, not covered by any of the provided agricultural, food, or raw natural product HS Level 1 categories."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Electrical Supplies",
+            "confidence": 0.95,
+            "reason": "High-voltage automotive wiring harnesses are electrical components used for power and signal transmission in vehicles, falling under electrical supplies."
+          },
+          "family": {
+            "matched_name": "Electrical Cabling/Wiring",
+            "confidence": 0.95,
+            "reason": "High-voltage automotive wiring harnesses are assemblies of insulated wires and cables designed for power transmission, falling directly under cabling/wiring."
+          },
+          "class": {
+            "matched_name": "Electrical Wiring",
+            "confidence": 0.95,
+            "reason": "High-voltage automotive wiring harnesses are specialized assemblies of wires and connectors used for power and signal transmission in vehicles, falling directly under Electrical Wiring, which encompasses wiring systems for electrical distribution and control in industrial and automotive contexts."
+          },
+          "brick": {
+            "matched_name": "Electrical Wires",
+            "confidence": 0.85,
+            "reason": "High-voltage automotive wiring harnesses are assemblies of electrical wires designed for vehicle power and signal transmission, falling under the broader GPC Brick 'Electrical Wires'."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        }
+      },
+      {
+        "product_name": "die-cast aluminum body structural components",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Product is die-cast aluminum structural components, which are metal industrial parts; none of the HS Level 1 candidates pertain to metals or manufactured metal goods."
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Building Products",
+            "confidence": 0.95,
+            "reason": "Die-cast aluminum body structural components are used in construction and architectural applications as load-bearing or framing elements."
+          },
+          "family": {
+            "matched_name": "Building Products",
+            "confidence": 0.8,
+            "reason": "Die-cast aluminum body structural components are commonly used in construction and building infrastructure, aligning with Building Products."
+          },
+          "class": {
+            "matched_name": "Structural Components/Assemblies",
+            "confidence": 0.95,
+            "reason": "Product name 'die-cast aluminum body structural components' directly aligns with 'Structural Components/Assemblies' in function and category."
+          },
+          "brick": {
+            "matched_name": "Metal Components (Dimension/Structural)",
+            "confidence": 0.95,
+            "reason": "Product is die-cast aluminum structural components, directly aligning with metal-based dimensional/structural components."
+          },
+          "match_status": "success",
+          "fail_reason": "GPC四层级匹配完成"
+        }
+      }
+    ],
+    "extraction_status": "success"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "news_metadata": {
+      "title": "测试：华为 Mate90 de1 核心器件供货趋紧，终端备货节奏调整",
+      "content": "受上游高端存储芯片与射频前端器件交付周期拉长影响，华为 Mate90 de1 项目相关供应链出现短期波动。多家代工与封测企业表示，正在通过加急排产与多线路物流保障关键部件到货。渠道端反馈，部分区域首批备货将从集中铺货调整为分批到仓，以降低库存与交付风险。",
+      "date": "2026-04-08",
+      "url": "https://example.com/test/huawei-mate90de1-supply-20260408",
+      "source": "测试数据源"
+    },
+    "extracted_products": [
+      "高端存储芯片",
+      "射频前端器件"
+    ],
+    "product_matches": [
+      {
+        "product_name": "高端存储芯片",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "高端存储芯片属于半导体电子元器件，不在所列HS Level 1农业及初级加工产品类别中"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Computing",
+            "confidence": 0.95,
+            "reason": "High-end storage chips are core components in computing systems, used for data storage and processing."
+          },
+          "family": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "Storage chips are semiconductor components, not computers or video games."
+          },
+          "class": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Family匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": null,
+          "hs_code": null,
+          "gpc_code": null
+        }
+      },
+      {
+        "product_name": "射频前端器件",
+        "hs_hierarchical_result": {
+          "level1": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "射频前端器件属于半导体电子元器件，不属于任何给定的农产品或初级加工品大类"
+          },
+          "level2": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "level3": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": ""
+          },
+          "match_status": "failed",
+          "fail_reason": "HS Level1匹配置信度0.00，低于阈值"
+        },
+        "gpc_hierarchical_result": {
+          "segment": {
+            "matched_name": "Communications",
+            "confidence": 0.95,
+            "reason": "射频前端器件 (RF front-end devices) are key components in wireless communication systems, used for signal transmission and reception."
+          },
+          "family": {
+            "matched_name": "Communications",
+            "confidence": 0.95,
+            "reason": "射频前端器件 are key components in wireless communication systems, such as mobile phones and base stations, directly supporting RF signal transmission and reception within the Communications domain."
+          },
+          "class": {
+            "matched_name": "Fixed Communication Devices",
+            "confidence": 0.85,
+            "reason": "射频前端器件 (RF front-end devices) are key components in fixed wireless communication infrastructure, such as base stations and access points, falling under Fixed Communication Devices rather than mobile or accessory categories."
+          },
+          "brick": {
+            "matched_name": null,
+            "confidence": 0.0,
+            "reason": "射频前端器件 (RF front-end devices) are semiconductor components used in wireless communication systems, not end-user fixed communication devices or their accessories; none of the candidates match this technical category."
+          },
+          "match_status": "failed",
+          "fail_reason": "GPC Brick匹配置信度0.00，低于阈值"
+        },
+        "normalized_fields": {
+          "hs_name": null,
+          "gpc_name": "Fixed Communication Devices",
+          "hs_code": null,
+          "gpc_code": null
+        }
+      }
+    ],
+    "extraction_status": "success"
+  }
+]
